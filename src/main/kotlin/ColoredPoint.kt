@@ -1,5 +1,7 @@
 class ColoredPoint(): Point() {
     var color: Color? = null
+        set(value) {field = value}
+        get() {return field}
     var point: Point = Point()
 
     constructor(_x: Double, _y: Double, _color: Color): this() {
